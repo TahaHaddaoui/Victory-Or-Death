@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -103,7 +103,6 @@ ScriptedImporter:
       width: 1414
       height: 1643
     spriteID: 59aed01dcd9b2504bbd78e6ce73d5870
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -125,7 +124,6 @@ ScriptedImporter:
       width: 1436
       height: 1436
     spriteID: 6bd1972c203db964294f59d4c5d31ef3
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,7 +145,6 @@ ScriptedImporter:
       width: 986
       height: 1269
     spriteID: d650cfd7c681f294dba4e5850ab5a6a1
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -169,7 +166,6 @@ ScriptedImporter:
       width: 1785
       height: 1092
     spriteID: 6cf2742a2902ccc45bf125da3b8b6ce1
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -191,7 +187,6 @@ ScriptedImporter:
       width: 493
       height: 1129
     spriteID: eaff9de0543f47f41917f7ff9082ad2d
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -213,7 +208,6 @@ ScriptedImporter:
       width: 431
       height: 1128
     spriteID: ee8077a755f01ff4284acc22bb91e10d
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +229,6 @@ ScriptedImporter:
       width: 449
       height: 1006
     spriteID: 2160c3cb6cb7393429455e6fc95d300f
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -257,7 +250,6 @@ ScriptedImporter:
       width: 543
       height: 1095
     spriteID: 081f1614e7eed814c93bb2f87fb33b9b
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -267,23 +259,34 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -3609, y: -1320}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
+  characterMode: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
-  importedTextureHeight: 2048
-  documentSize: {x: 7598, y: 7598}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 4096
-  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
-  characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Sword 1.kra
@@ -293,6 +296,9 @@ ScriptedImporter:
     spriteID: 59aed01dcd9b2504bbd78e6ce73d5870
     layerID: 4
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: shield
     spriteName: shield
     isGroup: 0
@@ -300,6 +306,9 @@ ScriptedImporter:
     spriteID: 6bd1972c203db964294f59d4c5d31ef3
     layerID: 11
     mosaicPosition: {x: 1426, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: ras
     spriteName: ras
     isGroup: 0
@@ -307,6 +316,9 @@ ScriptedImporter:
     spriteID: d650cfd7c681f294dba4e5850ab5a6a1
     layerID: 10
     mosaicPosition: {x: 2870, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Sketch principale
     spriteName: Sketch principale
     isGroup: 0
@@ -314,6 +326,9 @@ ScriptedImporter:
     spriteID: 6cf2742a2902ccc45bf125da3b8b6ce1
     layerID: 9
     mosaicPosition: {x: 1426, y: 1448}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: "Calque de dessin 3 (coll\xE9)"
     spriteName: "Calque de dessin 3 (coll\xE9)"
     isGroup: 0
@@ -321,6 +336,9 @@ ScriptedImporter:
     spriteID: eaff9de0543f47f41917f7ff9082ad2d
     layerID: 8
     mosaicPosition: {x: 4, y: 2758}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: yd lisra
     spriteName: yd lisra
     isGroup: 0
@@ -328,6 +346,9 @@ ScriptedImporter:
     spriteID: ee8077a755f01ff4284acc22bb91e10d
     layerID: 7
     mosaicPosition: {x: 555, y: 1655}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: kra3 limna
     spriteName: kra3 limna
     isGroup: 0
@@ -335,6 +356,9 @@ ScriptedImporter:
     spriteID: 2160c3cb6cb7393429455e6fc95d300f
     layerID: 6
     mosaicPosition: {x: 3219, y: 1448}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: kra3 lisra
     spriteName: kra3 lisra
     isGroup: 0
@@ -342,13 +366,34 @@ ScriptedImporter:
     spriteID: 081f1614e7eed814c93bb2f87fb33b9b
     layerID: 5
     mosaicPosition: {x: 4, y: 1655}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Calque de dessin 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 3
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: "Arri\xE8re-plan"
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 2
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: mfasal harald 3 Texture
   prefabAssetName: mfasal harald 3 Prefab
   spriteLibAssetName: mfasal harald 3 Sprite Lib
+  skeletonAssetName: 
   secondarySpriteTextures: []
